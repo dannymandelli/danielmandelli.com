@@ -42,6 +42,30 @@
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
   }
+    
+@media only screen and (max-width: 480px) {
+    .container-fluid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+    }
+    .item1{width:480px;}
+    .item2{width:480px;}
+    .item1{float:top;}
+    .item2{float:bottom;}
+}
+
   .container-fluid {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -62,7 +86,7 @@
   .item2{width:700px;}
   .item1{float:left;}
   .item2{float:right;}
-
+  
   .column {
   float: left;
   width: 33.33%;
