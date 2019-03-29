@@ -64,7 +64,7 @@
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
-@media screen and (min-width: 481px) {
+
   .item1{
     position:relative; 
     width:50%;
@@ -75,25 +75,31 @@
     width:50%;
     float:right;
   } 
-}
+
     
 @media screen and (max-width: 480px) {
-    .item1{
-      width: 100%;
-      z-index: 1;
-      float: none;
-    }
-    .item2{
-      width: 100%;
-      z-index: 2;
-      float: none;
-    }
-}
-  
-  .column {
-  float: left;
-  width: 33.33%;
+  .item1{
+    width: 100%;
+    z-index: 1;
+    float: none;
   }
+  .item2{
+    width: 100%;
+    z-index: 2;
+    float: none;
+  }
+}
+    
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+    
+@media screen and (max-width: 480px) {
+  .column {
+    width: 100%;
+  }
+}
 
   .groucho {
     position: relative;
