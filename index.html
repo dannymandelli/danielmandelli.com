@@ -64,34 +64,28 @@
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
-  .item1{width:50%;}
-  .item2{width:50%;}
-  .item1{float:left;}
-  .item2{float:right;}  
+  .item1{
+      position:relative; 
+      width:50%;
+      z-index: 1;
+      float:left;
+  }
+  .item2{
+    position:relative; 
+    z-index: 2;
+    width:50%;
+    float:right;
+  } 
     
 @media only screen and (max-width: 480px) {
-    .container-fluid {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-    .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-    }
-    .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-    }
     .item1{
-      position:relative; 
+      float: none;
+      position:absolute; 
       z-index: 1;
     }
     .item2{
-      position:relative; 
+      float: none;
+      position: absolute; 
       z-index: 2;
     }
 }
