@@ -20,7 +20,6 @@
     padding: 0px;
     overflow-x: hidden;
   }
-  $primary: #2f89fc;
 	  
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
@@ -77,21 +76,6 @@
     width:50%;
     float:right;
   } 
-  
-  .typewrite > .wrap {
-    position: relative;
-    border-right: 0.08em solid rgba(255,255,255,0);
-    &:after{
-      position: absolute;
-      top: 0;
-      bottom: 5px;
-      right: -5px;
-      width: 3px;
-      content: '';
-      background: $primary;
-    }
-}
-
     
 @media screen and (max-width: 480px) {
   .item1{
@@ -109,7 +93,17 @@
   .column {
     float: center;
     width: 33.33%;
-  }
+	}
+	
+	.col-30 {
+    float: center;
+    width: 30%;
+	}
+	
+	.col-70 {
+    float: center;
+    width: 70%;
+	}
     
 @media screen and (max-width: 480px) {
   .column {
@@ -117,34 +111,6 @@
     float: none;
   }
 }
-	 
-	.ftco-section {
-		padding: 7em 0;
-		position: relative;
-		&.ftco-section-2{
-			position: relative;
-			padding: 3em 0 !important;
-		}
-		.overlay{
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			content: '';
-			opacity: 1;
-			// background: $black;
-			@include gradient-background();
-		}
-		@include media-breakpoint-down(sm){
-			padding: 6em 0;
-		}
-	}
-		
-	.ftco-animate {
-		opacity: 0;
-		visibility: hidden;
-	}
 
   .groucho {
     position: relative;
@@ -268,13 +234,13 @@
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">
   <div class="row">
-  <div class="col-sm-4">
+  <div class="col-30">
     <p></p>
     <img src="capstone1.jpeg" class="img-responsive margin" style="width:100%" alt="Image">
   </div>
-  <div class="col-sm-4">
+  <div class="col-70">
     <p></p>
-    <img src="capstone2.jpeg" class="img-responsive margin" style="width:200%" alt="Image">
+    <img src="capstone2.jpeg" class="img-responsive margin" style="width:100%" alt="Image">
   </div>
   </div>
 </div>
