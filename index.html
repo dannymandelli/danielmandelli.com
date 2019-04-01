@@ -90,7 +90,7 @@
       content: '';
       background: $primary;
     }
-	}
+}
 
     
 @media screen and (max-width: 480px) {
@@ -117,6 +117,34 @@
     float: none;
   }
 }
+	 
+	.ftco-section {
+		padding: 7em 0;
+		position: relative;
+		&.ftco-section-2{
+			position: relative;
+			padding: 3em 0 !important;
+		}
+		.overlay{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			content: '';
+			opacity: 1;
+			// background: $black;
+			@include gradient-background();
+		}
+		@include media-breakpoint-down(sm){
+			padding: 6em 0;
+		}
+	}
+		
+	.ftco-animate {
+		opacity: 0;
+		visibility: hidden;
+	}
 
   .groucho {
     position: relative;
@@ -214,8 +242,8 @@
 </div>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-    <h3 class="margin" id="education_section">Education</h3>
+<div class="container-fluid bg-2 text-center ftco-section">
+    <h3 class="margin ftco-animate" id="education_section">Education</h3>
     <p>
       <b> University of Rhode Island </b>, Kingston, RI<br>
       Bachelor of Science in Computer Engineering, Dean’s List 2016-2018<br>
@@ -224,7 +252,7 @@
       Expected Graduation: <b>May 2019</b>
 
     </p>
-    <h3 class="margin" id="coursework">Coursework</h3>
+    <h3 class="margin ftco-animate" id="coursework">Coursework</h3>
       Intro to Computer Systems: Explored functionality of 16 bit processor through hardware simulation of Assembly Language code.<br>
       Data Structures and Abstractions: Studied runtime analysis of algorithms and data structures such as trees, linked lists, queues, and stacks.<br>
       Digital Design with FPGAs: Designed and implemented user centered digital systems in order to provide the most intuitive interface posible.<br>
