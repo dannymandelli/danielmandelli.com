@@ -106,9 +106,15 @@
 		padding: 5px;
 	}
 	
+	.col-50 {
+    float: left;
+    width: 49.99%;
+		padding: 5px;
+	}
+	
 	.exper {
     float: left;
-    width: 29.99%;
+    width: 49.99%;
 		padding: 5px;
 		padding-top: 10px;
     padding-bottom: 10px;
@@ -323,19 +329,17 @@
 <!-- Fifth Container -->
 <div class="container-fluid bg-4 text-center">
   <h3 class="margin" id="projects">PROJECTS</h3>
-  <div class="col-70">
+  <div class="col-50">
 	  <h1>Capstone Design Project</h1>
-		<img src="capstone3.jpeg" style="width:70%" alt="Image">
+		<img src="capstone3.jpeg" style="width:90%" alt="Image">
   </div>
-  <div class="col-30">
-    <p> 
+  <div class="exper">
 			<ul style="list-style-type:circle;">
         <li>Designed an automated system in Python to control stepper motors and collect light measurements at predetermined angular increments.</li>
         <li>All results are compiled and easily accessible to end user.</li>
         <li>Built and interfaced the system with a GUI written in C# on the .NET Framework.</li>
         <li>Established connection with an SQLite database to communicate between the GUI and Python script.</li>
       </ul>
-		</p>
   </div>
 </div>
 
