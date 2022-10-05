@@ -1,0 +1,3 @@
+[submodule "dannymandelli_server"]
+	path = dannymandelli_server
+	url = https://github.com/dannymandelli/dannymandelli_server.git
