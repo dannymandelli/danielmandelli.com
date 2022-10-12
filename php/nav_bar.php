@@ -1,11 +1,11 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/style.css" >
+<link rel="stylesheet" href="/css/style.css" >
 
 <nav id="navbar-placeholder" class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand brand_name" href="/"><h1>Daniel Mandelli</h1></a>
+    <a class="navbar-brand brand_name" href="/"><h2>Daniel Mandelli</h2></a>
     <div class="social-part">
       <a href="https://www.linkedin.com/in/daniel-mandelli/" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i></a>
       <a href="https://www.facebook.com/danny.mandelli" target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>

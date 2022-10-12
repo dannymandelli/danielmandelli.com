@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+
+.animated_word {
+  font-family: 'Anton', sans-serif;
+  perspective: 1000px; 
+}
+
+.animated_word span {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 100px;
+  user-select: none;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .animated_word span {
+    font-size: 50px;
+  }
+}
+
+@keyframes rotate {
+    20%, 80% {
+      transform: rotateY(180deg);
+    }
+    
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+
+.animated_word span:nth-child(n).active {
+animation: rotate 0.3s ease-out;
+}

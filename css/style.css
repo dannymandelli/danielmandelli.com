@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 body{
     background: linear-gradient(-45deg, #afff46, #cb7dff, #23a6d5, #32ffcf);
@@ -7,6 +8,8 @@ body{
     animation: gradient 15s ease infinite;
     height: 100vh;
 }
+
+
 
 .body {
     font-family: 'Playfair Display', serif;
@@ -192,6 +195,7 @@ li {
 }
 
 .brand_name {
+    font-family: 'Anton', serif;
     color: #f5f6f7;
     height: 50%;
     margin: 0px;
