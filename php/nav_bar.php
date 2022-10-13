@@ -23,6 +23,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/pages/experience.html">EXPERIENCE</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/files/Daniel_Mandelli_Resume.pdf" target="_blank" rel="noreferrer noopener" >RESUME</a>
+        </li>
       </ul>
       <ul class="nav navbar-nav ml-auto">
         <li class= "nav-item dropdown ">

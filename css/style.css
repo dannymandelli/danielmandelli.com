@@ -3,13 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
 body{
-    background: linear-gradient(-45deg, #afff46, #cb7dff, #23a6d5, #32ffcf);
+    background: linear-gradient(-45deg, #2C3333, #395B64, #739d9e, #a4dfe0);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
 }
-
-
 
 .body {
     font-family: 'Playfair Display', serif;
@@ -35,6 +33,7 @@ p {font-size: 16px;}
 padding-top: 50px;
 padding-bottom: 50px;
 }
+
 .navbar {
 padding-top: 15px;
 padding-bottom: 15px;
@@ -44,6 +43,7 @@ margin-bottom: 0;
 font-size: 12px;
 letter-spacing: 5px;
 }
+
 .navbar-nav  li a:hover {
 color: #1abc9c !important;
 }
@@ -185,6 +185,12 @@ ul {
 
 li {
     display: inline;
+}
+
+.terminal_animation {
+    padding:30px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .dropdown {

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+
+.animated_word {
+  font-family: 'Anton', sans-serif;
+  perspective: 1000px; 
+}
+
+.animated_word span {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 100px;
+  user-select: none;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .animated_word span {
+    font-size: 50px;
+  }
+}
+
+@keyframes rotate {
+    20%, 80% {
+      transform: rotateY(180deg);
+    }
+    
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+
+.animated_word span:nth-child(n).active {
+animation: rotate 0.3s ease-out;
+}
+
+.hidden {
+  opacity:0;
+}
+
+.console-container {
+  font-family:Anton;
+  font-size:5em;
+  text-align:center;
+  display:block;
+  margin:auto;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+  .console-container {
+    font-size:6vw;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+.before_terminal{
+  font-family:Anton;
+  float:left;
+  padding-left: 5%;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.after_terminal{
+  font-family:Anton;
+  float:right;
+  padding-right: 5%;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacity {
+  0%, 100% {opacity:0;}
+  50% {opacity:1;}
+}
+
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  left:3px;
+}
