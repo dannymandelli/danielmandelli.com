@@ -53,26 +53,8 @@ letter-spacing: 5px;
 color: #1abc9c !important;
 }
 
-.edu_box{
-width: 800px;
-height: 150px;
-font-size: 20px;
-margin: 0;
-padding: 0;
-margin: auto;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-text-align: center;
-vertical-align: middle;
-}
-
 .edu_img{
-display:inline;
-float: left;
-padding: 0;
-margin: 0;
+    display:inline-block;
 }
 
 .luminotify{
@@ -116,11 +98,23 @@ width: 49.99%;
 }
 
 .project {
-float: left;
-width: 49.99%;
-    padding: 5px;
-    padding-top: 10px;
+display: flex;
+justify-content: center;
+width: 50%;
+padding: 5px;
+padding-top: 10px;
 padding-bottom: 10px;
+}
+
+.project_section{
+    display:inline-block;
+    padding: 1em;
+    padding-left: 3em;
+    background-color: var(--bgColorMenu);
+}
+
+.project_text {
+  font-size: 3.5em;
 }
 
 .experience {
@@ -135,6 +129,7 @@ padding-bottom: 10px;
 .experience__section{
 display:inline-block;
 padding: 1em;
+padding-left: 3em;
 background-color: var(--bgColorMenu);
 }
 
@@ -151,8 +146,7 @@ background-color: var(--bgColorMenu);
 }
 
 .experience_box{
-  width:90%;
-  margin-left: 2em;
+  width:100%;
   display: inline-block;
 }
 
@@ -228,14 +222,9 @@ li {
 }
 
 @media screen and (max-width: 780px) {
-    .edu_box{
-    width: 300px;
-    height: 400px;
-    }
 
     .edu_img{
     float: center;
-    width: 100%;
     }
     
     .item1{
@@ -271,6 +260,10 @@ li {
     float: left;
     width: 100%;
         padding: 5px;
+    }
+    
+    .project {
+        width: 100%;
     }
     
     .exper {
