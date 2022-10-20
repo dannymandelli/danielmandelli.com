@@ -17,13 +17,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="nav navbar-nav mr-auto mb-2 mb-lg-0" id="navbar_list">
-        <li class="nav-item">
+        <li class="nav-item menu_dropdown">
           <a class="nav-link" href="/pages/education.html">EDUCATION</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item menu_dropdown">
           <a class="nav-link" href="/pages/experience.html">EXPERIENCE</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item menu_dropdown">
           <a class="nav-link" href="/files/Daniel_Mandelli_Resume.pdf" target="_blank" rel="noreferrer noopener" >RESUME</a>
         </li>
       </ul>

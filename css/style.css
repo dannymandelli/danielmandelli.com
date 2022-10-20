@@ -186,6 +186,10 @@ li {
     vertical-align: middle;
 }
 
+.menu_dropdown{
+    text-align: center;
+}
+
 .brand_name {
     font-family: 'Anton', serif;
     color: #f5f6f7;
@@ -283,4 +287,5 @@ li {
     .experience {
       width:95%;
     }
+    
 }
