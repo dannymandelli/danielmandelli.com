@@ -32,7 +32,6 @@ function clickItem(item, index) {
 
     displaySection(section_id[index]);
     
-    
 }
 
 function offsetMenuBorder(index, menuBorder) {

@@ -29,6 +29,7 @@ body{
 p {font-size: 16px;}
 
 .section_title {
+width:100%;
 font-size: 50px;
 margin-bottom: 45px;
 }
@@ -114,7 +115,7 @@ width: 49.99%;
     padding: 5px;
 }
 
-.exper {
+.project {
 float: left;
 width: 49.99%;
     padding: 5px;
@@ -122,33 +123,37 @@ width: 49.99%;
 padding-bottom: 10px;
 }
 
-.groucho {
-position: relative;
-font-family: 'Sanchez', serif;
-font-size: $base-font-size;
-line-height: $base-line-height;
-
-footer {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 0.6em;
-    font-weight: 700;
-    color: darken($white, 15%);
-    float: right;
-
-    &:before {
-    content: '\2015';
-    }
+.experience {
+display: flex;
+justify-content: center;
+width:80%;
+padding: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
-&:after {
-    content: '\201D';
-    position: absolute;
-    top: 0.28em;
-    right: 0;
-    font-size: 6em;
-    font-style: italic;
-    color: darken($white, 7%);
-    z-index: -1;
-    }
+
+.experience__section{
+display:inline-block;
+padding: 1em;
+background-color: var(--bgColorMenu);
+}
+
+.experience_header{
+  font-size: 3.5em;
+  width:100%;
+  float:left;
+  padding:3px ;
+}
+
+.font_text {
+  font-family: 'Sanchez', serif;
+  font-size: 2em;
+}
+
+.experience_box{
+  width:90%;
+  margin-left: 2em;
+  display: inline-block;
 }
 
 .social-part{
@@ -164,7 +169,8 @@ ul {
 }
 
 li {
-    list-style-type: '>';
+    list-style-type: '>  ';
+    text-align: left;
 }
 
 .terminal_animation {
@@ -272,5 +278,9 @@ li {
 
     .collapse{
         display:none;
+    }
+
+    .experience {
+      width:95%;
     }
 }

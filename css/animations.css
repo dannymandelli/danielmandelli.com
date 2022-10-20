@@ -74,34 +74,27 @@ html {
   box-sizing: border-box;
   --bgColorMenu : #1d1d27;
   --duration: .7s;
-  --skills_height : 48em;
 }
 
 .skills_menu{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .menu{
   display: inline-block;
   width: 6em;
-  height: var(--skills_height);
   font-size: 1.5em;
   padding: 1em;
   position: relative;
-  text-align: center;
   background-color: var(--bgColorMenu);
-  margin:auto;
-  margin-right:0;
-  margin-left:0;
+  margin:0;
 }
 
 .menu__section{
   display:inline-block;
   padding: 1em;
   width: 70vw;
-  height: var(--skills_height);
   font-size: 1.5em;
   position: relative;
   background-color: var(--bgColorMenu);
@@ -245,9 +238,6 @@ html {
 }
 
 @media screen and (max-width: 1410px) {
-  html {
-    --skills_height : 60em;
-  }
 
   .svg_skill_box{
     width:33%;
@@ -256,12 +246,8 @@ html {
 }
 
 @media screen and (max-width: 1120px) {
-  html {
-    --skills_height : 68em;
-  }
 
   .menu{
-    width: 20%;
     font-size: 1.5em;
   }
     
@@ -294,11 +280,4 @@ html {
     font-size: 3vw;
   }
 
-}
-
-
-@media screen and (max-width: 480px) {
-  html {
-    --skills_height : 55em;
-  }
 }
