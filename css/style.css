@@ -217,7 +217,7 @@ li {
   transition-duration: .1s;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .edu_box{
     width: 300px;
     height: 400px;
@@ -241,7 +241,6 @@ li {
     
     .column {
     width: 100%;
-    float: none;
     float: left;
     padding: 5px;
     }
@@ -270,4 +269,8 @@ li {
         padding-top: 5px;
     padding-bottom: 5px;
     }
+
+    .collapse{
+        display:none;
     }
+}

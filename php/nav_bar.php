@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/style.css" >
 
-<nav id="navbar-placeholder" class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav id="navbar-placeholder" class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand brand_name" href="/"><h2>Daniel Mandelli</h2></a>
     <div class="social-part">
@@ -16,7 +16,7 @@
       <span class="navbar-toggler-icon active"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="nav navbar-nav mr-auto" id="navbar_list">
+      <ul class="nav navbar-nav mr-auto mb-2 mb-lg-0" id="navbar_list">
         <li class="nav-item">
           <a class="nav-link" href="/pages/education.html">EDUCATION</a>
         </li>
