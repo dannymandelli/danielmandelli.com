@@ -106,6 +106,14 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 
+.education_section{
+    display:inline-block;
+    padding: 1em;
+    justify-content: center;
+    position: relative;
+    background-color: var(--bgColorMenu);
+}
+
 .project_section{
     display:inline-block;
     padding: 1em;
