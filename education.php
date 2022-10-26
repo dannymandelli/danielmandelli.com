@@ -1,6 +1,6 @@
-<?php include "../php/header.php";?>
+<?php include "php/header.php";?>
 
-<?php include "../php/nav_bar.php";?>
+<?php include "php/nav_bar.php";?>
 
   <div class="container-fluid text-center ">
     <h2 class="section_title" >Education</h2>
@@ -50,4 +50,4 @@
     </div>
   </div>
 
-  <?php include "../php/footer.php";?>
+  <?php include "php/footer.php";?>
