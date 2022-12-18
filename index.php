@@ -30,10 +30,12 @@
     <br></br>
     <br></br>
     <p>
-      Welcome! My name is Daniel Mandelli, a Software Developer from East Providence, RI.
+      Welcome! My name is Daniel Mandelli, a Software Engineer based out of East Providence, RI.
       I attended the University of Rhode Island and graduated in May 2019 with a degree in Computer Engineering.
-      For the past 3 Years I have worked at Vector Informatik as Full Stack Software Developer.
-      I hope to gain more experience in all things web development in the hope of obtaining a Front End development position.
+      For the past 4 Years I have worked professionally as Full Stack Software Developer.
+      I hope to gain more experience in all things web development as I continue to work on side projects.
+      Currently I am working on an eccomerce site using React Next.js and Sanity.
+      I'm currently looking for exciting new career opportunities that fits my experience.
 
     </p>
   </div>
