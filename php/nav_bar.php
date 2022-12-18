@@ -24,7 +24,7 @@
           <a class="nav-link" href="/experience.php">EXPERIENCE</a>
         </li>
         <li class="nav-item menu_dropdown">
-          <a class="nav-link" href="/files/Daniel_Mandelli_Resume.pdf" target="_blank" rel="noreferrer noopener" >RESUME</a>
+          <a class="nav-link" href="/files/D_Mandelli_Resume.pdf" target="_blank" rel="noreferrer noopener" >RESUME</a>
         </li>
       </ul>
       <ul class="nav navbar-nav ml-auto">
